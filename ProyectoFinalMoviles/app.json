@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "El Camarón Crudo",
+    "slug": "camaron-crudo-app",
+    "version": "1.0.0",
+    "scheme": "camaroncrudo",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}

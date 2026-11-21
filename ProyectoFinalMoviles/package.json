@@ -1,0 +1,31 @@
+{
+  "name": "camaron-crudo-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "install-deps": "npm install expo@latest && npx expo install react react-dom react-native react-native-web expo-router expo-linking expo-constants expo-status-bar react-native-safe-area-context react-native-screens @expo/metro-runtime @expo/vector-icons @react-native-async-storage/async-storage expo-image-picker && npx expo install typescript @types/react -- --save-dev",
+    "start": "expo start",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~58.0.17",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@types/react": "~19.3.0",
+    "expo": "^58.0.26",
+    "expo-constants": "~58.0.16",
+    "expo-image-picker": "~58.0.10",
+    "expo-linking": "~58.0.17",
+    "expo-router": "~58.0.32",
+    "expo-status-bar": "~58.0.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-screens": "~4.30.1",
+    "react-native-web": "^0.21.4",
+    "typescript": "~6.0.3"
+  }
+}
